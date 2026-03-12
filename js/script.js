@@ -1,10 +1,11 @@
 gsap.registerPlugin(ScrollTrigger);
 
 var btMenu = document.getElementById('btMenu');
-var menu = document.getElementById('menu');
-var linksMenu = menu.querySelectorAll('a');
 
 if(btMenu){
+
+  var menu = document.getElementById('menu');
+  var linksMenu = menu.querySelectorAll('a');
 
 btMenu.addEventListener('click', toggleMenu);
 
