@@ -4,6 +4,8 @@ var btMenu = document.getElementById('btMenu');
 var menu = document.getElementById('menu');
 var linksMenu = menu.querySelectorAll('a');
 
+if(btMenu){
+
 btMenu.addEventListener('click', toggleMenu);
 
 function toggleMenu() {
@@ -17,7 +19,7 @@ for (linkMenu of linksMenu) {
 function closeMenu() {
     document.body.classList.remove('has-menu');
 }
-
+}
 
 var tl = gsap.timeline({
     scrollTrigger: {
