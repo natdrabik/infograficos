@@ -110,9 +110,9 @@ body {
 h6, .h6, h5, .h5, h4, .h4, h3, .h3, h2, .h2, h1, .h1 {
   margin-top: 0;
   margin-bottom: 0.5rem;
-  font-weight: 500;
+  font-weight: 700;
   line-height: 1.2;
-  color: var(--secondary-light);
+  color: var(--primary);
 }
 
 h1, .h1 {
@@ -515,19 +515,6 @@ nav {
 }
 
 @media (min-width: 600px) {
-  h1 { 
-    font-size: 6cqw;
-  }
-
-  h2 { 
-    font-size: 4cqw;
-    margin-bottom: 3cqw;
-  }
-
-  h3 { 
-    font-size: 2cqw; 
-  }
-
   section {
     padding: 50px;
   }
