@@ -291,6 +291,33 @@ nav {
   }
 }
 
+.intro {
+  flex-direction: row;
+  align-items: center;
+  display: flex;
+  position: relative;
+  justify-content: flex-start;
+
+  .txt {
+    width: 50%;
+  }
+
+  img {
+    width: 50%;
+    position: absolute;
+    right: 0;
+  }
+}
+
+.pq {
+  ul {
+    display: grid;
+    list-style: none;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 4cqw;
+  }
+}
+
 #links {
   background-color: var(--foreground);
   background: radial-gradient(circle at 30% 10%, var(--primary-a0) 15%, var(--background) 150%);
@@ -384,33 +411,5 @@ nav {
   }
 }
 
-@media (min-width: 1000px) {
 
-}
 
-.intro {
-  flex-direction: row;
-  align-items: center;
-  display: flex;
-  position: relative;
-  justify-content: flex-start;
-
-  .txt {
-    width: 50%;
-  }
-
-  img {
-    width: 50%;
-    position: absolute;
-    right: 0;
-  }
-}
-
-.pq {
-  ul {
-    display: grid;
-    list-style: none;
-    grid-template-columns: repeat(4, 1fr);
-    grid-gap: 4cqw;
-  }
-}
