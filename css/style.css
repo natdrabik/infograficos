@@ -297,6 +297,7 @@ nav {
   display: flex;
   position: relative;
   justify-content: flex-start;
+  background: radial-gradient(circle at 50% 10%, var(--primary-a0) 15%, #000 100%);
 
   .txt {
     width: 50%;
