@@ -323,9 +323,16 @@ nav {
   border-radius: 30px;
 }
 
+.what {
+      background: radial-gradient(circle at 50% 50%, var(--primary-a0) 15%, #000 100%);
+  .grid {
+    display: flex;
+  }
+}
+
 .pq {
   background: radial-gradient(circle at 30% 10%, var(--primary-a0) 15%, var(--background) 150%);
-  
+
   ul {
     display: grid;
     list-style: none;
@@ -334,11 +341,6 @@ nav {
   }
 }
 
-.what {
-  .grid {
-    display: flex;
-  }
-}
 
 #links {
   background-color: var(--foreground);
