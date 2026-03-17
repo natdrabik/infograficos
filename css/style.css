@@ -299,6 +299,15 @@ nav {
   justify-content: flex-start;
   background: radial-gradient(circle at 50% 10%, var(--primary-a0) 15%, #000 100%);
 
+  h2 {
+  font-size: calc(1.3rem + 0.6vw);
+}
+@media (min-width: 1200px) {
+  h2 {
+    font-size: 1.75rem;
+  }
+}
+
   .txt {
     width: 50%;
   }
