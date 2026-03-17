@@ -321,6 +321,16 @@ nav {
   grid-gap: 10px;
   padding: 10px 10px 0 10px;
   border-radius: 30px;
+
+  .bignumber {
+    font-size: 5cqw;
+    font-weight: 900;
+  }
+
+  .txt-large {
+    font-size: 2cqw;
+    font-weight: 900;
+  }
 }
 
 .what {
