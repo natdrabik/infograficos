@@ -354,13 +354,11 @@ nav {
   
   .grid {
     display: flex;
+    align-items: center;
   }
 
   .box {
     width: 14cqw;
-    position: absolute;
-    bottom: 0;
-    right: 0;
   }
 }
 
