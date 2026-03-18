@@ -348,11 +348,10 @@ nav {
 
 .what {
   background: radial-gradient(circle at 50% 50%, var(--primary-a0) 15%, #000 100%);
+  position: relative;
   
   .grid {
     display: flex;
-    position: relative;
-    height: 100%;
   }
 
   .box {
