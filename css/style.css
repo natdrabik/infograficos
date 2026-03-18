@@ -328,7 +328,7 @@ nav {
   background: var(--primary-a0);
   filter: saturate(0.5) drop-shadow(0px 0px 1px var(--primary-dark));
   grid-gap: 10px;
-  padding: 10px 10px 0 10px;
+  padding: 20px 30px;
   border-radius: 30px;
 
   .bignumber {
@@ -349,6 +349,10 @@ nav {
   
   .grid {
     display: flex;
+  }
+
+  .box {
+    width: 14cqw;
   }
 }
 
