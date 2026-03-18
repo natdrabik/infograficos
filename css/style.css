@@ -121,7 +121,9 @@ h1, h2 {
 }
 @media (min-width: 1200px) {
   h1, h2 {
-    font-size: 4.5rem;
+    /* font-size: 4.5rem; */
+    font-size: 5cqw;
+    font-weight: 900;
   }
 }
 
