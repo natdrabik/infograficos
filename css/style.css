@@ -360,6 +360,10 @@ nav {
   .box {
     width: 14cqw;
   }
+
+  .destaque {
+    font-size: 3cqw;
+  }
 }
 
 .pq {
