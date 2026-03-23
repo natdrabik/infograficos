@@ -362,7 +362,12 @@ nav {
   }
 
   .destaque {
-    font-size: 3cqw;
+    font-size: 3vh;
+  }
+
+  .cms {
+    font-size: 10vh;
+    line-height: 1;
   }
 }
 
