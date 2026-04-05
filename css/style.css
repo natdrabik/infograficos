@@ -331,11 +331,10 @@ nav {
   }
 
   img {
-    width: 50%;
+    /* width: 50%;
     position: absolute;
-    right: 0;
+    right: 0; */
   }
-}
 
 .box {
   display: flex;
