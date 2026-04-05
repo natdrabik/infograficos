@@ -306,13 +306,14 @@ nav {
   }
 
   .livros {
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+
   }
 
   .livros-col {
     display: flex;
     flex-direction: column;
-    width: 33.3%;
 
     img {
       width: 100%;
