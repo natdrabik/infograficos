@@ -298,7 +298,7 @@ nav {
   align-items: center;
   display: flex;
   position: relative;
-  justify-content: flex-start;
+  justify-content: center;
   background: radial-gradient(circle at 50% 10%, var(--primary-a0) 15%, #000 100%);
   padding: 0;
 
@@ -343,7 +343,6 @@ nav {
 
   .txt {
     position: absolute;
-    top: 0;
   }
 
   img {
