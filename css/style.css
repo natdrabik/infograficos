@@ -309,16 +309,29 @@ nav {
   .livros {
     display: grid;
     grid-template-columns: repeat(6,1fr);
-
+    width: 100%;
   }
 
-  .livros-col {
+  .livros-track {
     display: flex;
     flex-direction: column;
+    position: relative;
 
     img {
       width: 100%;
     }
+  }
+
+  .livros-col {
+    position: absolute;
+  }
+
+  .livros-col--up {
+    bottom: 0;
+  }
+
+  .livros-col--down {
+    top: 0;
   }
 }
 @media (min-width: 1200px) {
