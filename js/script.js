@@ -39,9 +39,11 @@ tl.from('.intro h1', {
 // }, "<")
 .to('.livros-col--up', {
     y: 0,
+    duration: .5
 })
 .to('.livros-col--down', {
     y: 100,
+    duration: .5
 })
 
 
