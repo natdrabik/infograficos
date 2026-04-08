@@ -45,15 +45,15 @@ tl.from('.intro h1', {
 })
 
 
-var tlProjects = gsap.timeline({
-    scrollTrigger: {
-        trigger: "#links",
-    }
-})
-.from('#links a', {
-  y: 10,
-  opacity:0,
-  duration: .5,
-  stagger: 0.2,
-  delay:.5
-})
+// var tlProjects = gsap.timeline({
+//     scrollTrigger: {
+//         trigger: "#links",
+//     }
+// })
+// .from('#links a', {
+//   y: 10,
+//   opacity:0,
+//   duration: .5,
+//   stagger: 0.2,
+//   delay:.5
+// })
