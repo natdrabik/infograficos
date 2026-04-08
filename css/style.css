@@ -317,12 +317,19 @@ nav {
       width: 100%;
     }
 
+  .livros-col {
+    
+        display: flex;
+        flex-direction: column;
+        height: 100vh;
+  }
+
   .livros-col--up {
-    /* bottom: 100vh; */
+    justify-content: flex-end;
   }
 
   .livros-col--down {
-    /* top: 100vh; */
+    justify-content: flex-start;
   }
 }
 @media (min-width: 1200px) {
