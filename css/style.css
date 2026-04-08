@@ -302,7 +302,7 @@ nav {
   background: radial-gradient(circle at 50% 10%, var(--primary-a0) 15%, #000 100%);
   padding: 0;
 
-  h2 {
+  h2, h1 {
     font-size: calc(1.3rem + 0.6vw);
   }
 
@@ -313,27 +313,17 @@ nav {
     height: 100vh;
   }
 
-  .livros-track {
-    display: flex;
-    flex-direction: column;
-    position: relative;
-
     img {
       width: 100%;
     }
-  }
-/* 
-  .livros-col {
-    position: absolute;
-  }
 
   .livros-col--up {
-    bottom: 100vh;
+    /* bottom: 100vh; */
   }
 
   .livros-col--down {
-    top: 100vh;
-  } */
+    /* top: 100vh; */
+  }
 }
 @media (min-width: 1200px) {
   h2 {
