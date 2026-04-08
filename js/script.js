@@ -32,11 +32,11 @@ tl.from('.intro h1', {
   opacity:0,
   duration: .5
 })
-.from('#menu', {
-  y: 10,
-  opacity:0,
-  duration: .5
-}, "<")
+// .from('#menu', {
+//   y: 10,
+//   opacity:0,
+//   duration: .5
+// }, "<")
 .to('.livros-col--up', {
     y: 0,
 })
