@@ -24,10 +24,10 @@ function closeMenu() {
 
 var tl = gsap.timeline({
     scrollTrigger: {
-        trigger: "#intro",
+        trigger: ".intro",
     }
 });
-tl.from('#intro h1', {
+tl.from('.intro h1', {
     y: 10,
   opacity:0,
   duration: .5
@@ -37,6 +37,12 @@ tl.from('#intro h1', {
   opacity:0,
   duration: .5
 }, "<")
+.to('.livros-col--up', {
+    y: 0,
+})
+.to('.livros-col--down', {
+    y: 100,
+})
 
 
 var tlProjects = gsap.timeline({
