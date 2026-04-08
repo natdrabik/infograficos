@@ -322,7 +322,7 @@ nav {
       width: 100%;
     }
   }
-
+/* 
   .livros-col {
     position: absolute;
   }
@@ -333,7 +333,7 @@ nav {
 
   .livros-col--down {
     top: 100vh;
-  }
+  } */
 }
 @media (min-width: 1200px) {
   h2 {
