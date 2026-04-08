@@ -22,26 +22,20 @@ function closeMenu() {
 }
 }
 
-var tl = gsap.timeline({
-    scrollTrigger: {
-        trigger: ".intro",
-    }
-});
-tl.from('.intro h1', {
-    y: 10,
+gsap.from('.intro h1', {
+	scrollTrigger: '.intro h1', // start the animation when ".box" enters the viewport (once)
+	y: 10,
   opacity:0,
   duration: .5
-})
-// .from('#menu', {
-//   y: 10,
-//   opacity:0,
-//   duration: .5
-// }, "<")
-.to('.livros-col--up', {
+});
+
+gsap.to('.livros-col--up', {
+    scrollTrigger: '.intro',
     y: 0,
     duration: .5
 })
-.to('.livros-col--down', {
+gsap.to('.livros-col--down', {
+    scrollTrigger: '.intro',
     y: 100,
     duration: .5
 })
