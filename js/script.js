@@ -31,12 +31,12 @@ gsap.from('.intro h1', {
 
 gsap.to('.livros-col--up', {
     scrollTrigger: '.intro',
-    y: 0,
+    yPercent: 0,
     duration: .5
 })
 gsap.to('.livros-col--down', {
     scrollTrigger: '.intro',
-    y: 100,
+    yPercent: 100,
     duration: .5
 })
 
