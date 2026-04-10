@@ -32,10 +32,12 @@ gsap.from('.intro h1', {
 gsap.from('.livros-col--up', {
     scrollTrigger: '.intro',
     yPercent: 100,
+    duration: .5
 })
 gsap.from('.livros-col--down', {
     scrollTrigger: '.intro',
     yPercent: -100,
+    duration: .5
 })
 
 
