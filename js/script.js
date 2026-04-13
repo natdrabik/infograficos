@@ -30,14 +30,20 @@ gsap.from('.intro h1', {
 });
 
 gsap.from('.livros-col--up', {
-    scrollTrigger: '.intro',
-    yPercent: 100,
-    duration: .5
+    scrollTrigger: {
+        trigger: '.intro',
+        yPercent: 100,
+        duration: .5,
+        start: 'top top', // when the top of the trigger hits the top of the viewport
+    }
 })
 gsap.from('.livros-col--down', {
-    scrollTrigger: '.intro',
-    yPercent: -100,
-    duration: .5
+    scrollTrigger: {
+        trigger: '.intro',
+        yPercent: -100,
+        duration: .5,
+        start: 'top top', // when the top of the trigger hits the top of the viewport
+    }
 })
 
 
