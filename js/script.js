@@ -33,7 +33,6 @@ gsap.from('.livros-col--up', {
     scrollTrigger: {
         trigger: '.intro',
         yPercent: 100,
-        duration: .5,
         start: 'top top', // when the top of the trigger hits the top of the viewport
     }
 })
@@ -41,7 +40,6 @@ gsap.from('.livros-col--down', {
     scrollTrigger: {
         trigger: '.intro',
         yPercent: -100,
-        duration: .5,
         start: 'top top', // when the top of the trigger hits the top of the viewport
     }
 })
