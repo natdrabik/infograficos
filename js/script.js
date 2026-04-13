@@ -30,7 +30,7 @@ gsap.from('.intro h1', {
 });
 
 gsap.from('.livros-col--up', {
-    yPercent: 100,
+    yPercent: -100,
     scrollTrigger: {
         trigger: '.intro',
         start: 'top top', // when the top of the trigger hits the top of the viewport
@@ -38,10 +38,9 @@ gsap.from('.livros-col--up', {
     }
 })
 gsap.from('.livros-col--down', {
-    yPercent: -100,
+    yPercent: 100,
     scrollTrigger: {
         trigger: '.intro',
-        
         start: 'top top', // when the top of the trigger hits the top of the viewport
         end: 'bottom top',
     }
