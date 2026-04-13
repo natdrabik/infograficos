@@ -35,6 +35,7 @@ gsap.from('.livros-col--up', {
         trigger: '.intro',
         
         start: 'top top', // when the top of the trigger hits the top of the viewport
+        end: 'bottom top',
     }
 })
 gsap.from('.livros-col--down', {
@@ -43,6 +44,7 @@ gsap.from('.livros-col--down', {
         trigger: '.intro',
         
         start: 'top top', // when the top of the trigger hits the top of the viewport
+        end: 'bottom top',
     }
 })
 
