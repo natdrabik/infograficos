@@ -22,31 +22,31 @@ function closeMenu() {
 }
 }
 
-gsap.from('.intro h1', {
-	scrollTrigger: '.intro h1', // start the animation when ".box" enters the viewport (once)
-	y: 10,
-  opacity:0,
-  duration: .5
-});
+// gsap.from('.intro h1', {
+// 	scrollTrigger: '.intro h1', // start the animation when ".box" enters the viewport (once)
+// 	y: 10,
+//   opacity:0,
+//   duration: .5
+// });
 
-gsap.from('.livros-col--up', {
-    yPercent: -100,
-    scrub: 1,
-    scrollTrigger: {
-        trigger: '.intro',
-        start: 'top top', // when the top of the trigger hits the top of the viewport
-        end: 'bottom top',
-    }
-})
-gsap.from('.livros-col--down', {
-    yPercent: 100,
-    scrub: 1,
-    scrollTrigger: {
-        trigger: '.intro',
-        start: 'top top', // when the top of the trigger hits the top of the viewport
-        end: 'bottom top',
-    }
-})
+// gsap.from('.livros-col--up', {
+//     yPercent: -100,
+//     scrub: 1,
+//     scrollTrigger: {
+//         trigger: '.intro',
+//         start: 'top top', // when the top of the trigger hits the top of the viewport
+//         end: 'bottom top',
+//     }
+// })
+// gsap.from('.livros-col--down', {
+//     yPercent: 100,
+//     scrub: 1,
+//     scrollTrigger: {
+//         trigger: '.intro',
+//         start: 'top top', // when the top of the trigger hits the top of the viewport
+//         end: 'bottom top',
+//     }
+// })
 
 
 // var tlProjects = gsap.timeline({
