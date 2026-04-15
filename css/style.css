@@ -294,11 +294,7 @@ nav {
 }
 
 .intro {
-  flex-direction: row;
-  align-items: center;
-  display: flex;
   position: relative;
-  justify-content: center;
   background: radial-gradient(circle at 50% 10%, var(--primary-a0) 15%, #000 100%);
   padding: 0;
   width: 100%;
@@ -310,10 +306,15 @@ nav {
     right: 0;
     bottom: 0;
     position: absolute;
+    flex-direction: row;
+    align-items: center;
+    display: flex;
+    justify-content: center;
   }
 
   h2, h1 {
-    font-size: calc(1.3rem + 0.6vw);
+    font-size: calc(5rem + 0.6vw);
+    text-align: center;
   }
 
   /* .livros {
