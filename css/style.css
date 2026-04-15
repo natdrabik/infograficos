@@ -314,7 +314,8 @@ nav {
     p {
       font-size: calc(2rem + 0.6vw);
       text-transform: uppercase;
-      color: var(--copy-light);
+      color: var(--copy-lighter);
+      font-weight: 700;
     }
   }
 
