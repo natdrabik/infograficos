@@ -22,6 +22,10 @@ function closeMenu() {
 }
 }
 
+//1. surge o título
+//2. livros correm
+//3. subtítulo
+
 // gsap.from('.intro h1', {
 // 	scrollTrigger: '.intro h1', // start the animation when ".box" enters the viewport (once)
 // 	y: 10,
