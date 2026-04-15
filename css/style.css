@@ -312,7 +312,9 @@ nav {
     justify-content: center;
 
     p {
-      font-size: calc(3rem + 0.6vw);
+      font-size: calc(2rem + 0.6vw);
+      text-transform: uppercase;
+      color: var(--copy-light);
     }
   }
 
