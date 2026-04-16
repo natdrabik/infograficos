@@ -358,10 +358,12 @@ nav {
 
   .livros-col--up {
     bottom: 0;
+    justify-content: flex-end;
   }
 
   .livros-col--down {
     top: 0;
+    justify-content: flex-start;
   }
 }
 @media (min-width: 1200px) {
