@@ -346,13 +346,14 @@ nav {
     }
 
     .livros-track {
-      position: absolute;
+      position: relative;
     }
 
   .livros-col {
         display: flex;
         flex-direction: column;
         height: 100vh;
+        position: absolute;
   }
 
   .livros-col--up {
