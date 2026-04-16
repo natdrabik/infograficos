@@ -345,6 +345,10 @@ nav {
       width: 100%;
     }
 
+    .livros-track {
+      position: absolute;
+    }
+
   .livros-col {
         display: flex;
         flex-direction: column;
@@ -352,11 +356,11 @@ nav {
   }
 
   .livros-col--up {
-    justify-content: flex-end;
+    bottom: 0;
   }
 
   .livros-col--down {
-    justify-content: flex-start;
+    top: 0;
   }
 }
 @media (min-width: 1200px) {
