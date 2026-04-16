@@ -358,12 +358,12 @@ nav {
   }
 
   .livros-col--up {
-    bottom: -100vh;
+    top: 0;
     justify-content: flex-end;
   }
 
   .livros-col--down {
-    top: -100vh;
+    bottom: 0;
     justify-content: flex-start;
   }
 }
