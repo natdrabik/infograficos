@@ -354,6 +354,7 @@ nav {
         flex-direction: column;
         height: 100vh;
         position: absolute;
+        width: 100%;
   }
 
   .livros-col--up {
