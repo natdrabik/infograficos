@@ -29,9 +29,16 @@ function closeMenu() {
 //2. livros correm
 //3. subtítulo
 
-gsap.from('.intro p', {
+gsap.timeline()
+.from('.intro p', {
     opacity: 0,
     duration: 5,
+});
+.from('.intro h1', {
+    opacity: 0,
+    y: -50,
+    duration: 5, 
+    ease:"back"
 });
 
 // gsap.from('.livros-col--up', {
