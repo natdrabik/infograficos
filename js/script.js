@@ -23,15 +23,16 @@ function closeMenu() {
 }
 
 //1. surge o título
+//1.1 My - fade
+//1.2 reading - jump up
+//1.3 2025 - jump?
 //2. livros correm
 //3. subtítulo
 
-// gsap.from('.intro h1', {
-// 	scrollTrigger: '.intro h1', // start the animation when ".box" enters the viewport (once)
-// 	y: 10,
-//   opacity:0,
-//   duration: .5
-// });
+gsap.from('.intro p', {
+    opacity: 0,
+    duration: 0.2,
+});
 
 // gsap.from('.livros-col--up', {
 //     yPercent: -100,
