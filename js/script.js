@@ -38,13 +38,13 @@ gsap.timeline()
     opacity: 0,
     y: 50,
     duration: .5, 
-    ease:"back"
+    ease:"elastic"
 }, "-=.5")
 .from('.intro h2', {
     opacity: 0,
     y: 50,
     duration: .5, 
-    ease:"back"
+    ease:"elastic"
 })
 
 // gsap.from('.livros-col--up', {
