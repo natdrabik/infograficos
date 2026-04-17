@@ -38,20 +38,30 @@ gsap.timeline()
     opacity: 0,
     y: 50,
     duration: 2, 
-    ease:"elastic"
+    ease:"back"
 }, "-=.5")
 .from('.intro h2', {
     opacity: 0,
     y: 50,
     duration: 2, 
-    ease:"elastic"
+    ease:"back"
 }, "-=1")
+
+gsap.to('.intro p', {
+    opacity: 0,
+    scrub: 1,
+    scrollTrigger: {
+        trigger: '.intro .livros',
+        start: 'top bottom', // when the top of the trigger hits the top of the viewport
+        // end: 'bottom top',
+    }
+})
 
 // gsap.from('.livros-col--up', {
 //     yPercent: -100,
 //     scrub: 1,
 //     scrollTrigger: {
-//         trigger: '.intro',
+//         trigger: '.intro h1',
 //         start: 'top top', // when the top of the trigger hits the top of the viewport
 //         end: 'bottom top',
 //     }
