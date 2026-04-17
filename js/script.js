@@ -31,7 +31,7 @@ function closeMenu() {
 
 gsap.from('.intro p', {
     opacity: 0,
-    duration: 0.2,
+    duration: 1,
 });
 
 // gsap.from('.livros-col--up', {
