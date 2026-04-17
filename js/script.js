@@ -37,7 +37,13 @@ gsap.timeline()
 .from('.intro h1', {
     opacity: 0,
     y: 50,
-    duration: .2, 
+    duration: .5, 
+    ease:"back"
+})
+.from('.intro h2', {
+    opacity: 0,
+    y: 50,
+    duration: .5, 
     ease:"back"
 })
 
