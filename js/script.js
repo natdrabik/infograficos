@@ -45,7 +45,7 @@ gsap.timeline()
     y: 50,
     duration: 2, 
     ease:"elastic"
-})
+}, "-=1")
 
 // gsap.from('.livros-col--up', {
 //     yPercent: -100,
