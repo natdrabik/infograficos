@@ -48,24 +48,24 @@ gsap.timeline()
 }, "-=.5")
 
 
-// gsap.from('.livros-col--up', {
-//     yPercent: 100,
-//     scrub: 1,
-//     scrollTrigger: {
-//         trigger: '.livros',
-//         start: 'top top', // when the top of the trigger hits the top of the viewport
-//         end: 'bottom top',
-//     }
-// })
-// gsap.from('.livros-col--down', {
-//     yPercent: -100,
-//     scrub: 1,
-//     scrollTrigger: {
-//         trigger: '.livros',
-//         start: 'top top', // when the top of the trigger hits the top of the viewport
-//         end: 'bottom top',
-//     }
-// })
+gsap.from('.livros-col--up', {
+    yPercent: 350,
+    scrub: 1,
+    scrollTrigger: {
+        trigger: '.livros',
+        start: 'top top', // when the top of the trigger hits the top of the viewport
+        end: 'bottom top',
+    }
+})
+gsap.from('.livros-col--down', {
+    yPercent: -350,
+    scrub: 1,
+    scrollTrigger: {
+        trigger: '.livros',
+        start: 'top top', // when the top of the trigger hits the top of the viewport
+        end: 'bottom top',
+    }
+})
 
 
 // var tlProjects = gsap.timeline({
