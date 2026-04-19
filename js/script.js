@@ -49,7 +49,7 @@ gsap.timeline()
 
 
 gsap.from('.livros-col--up', {
-    yPercent: 350,
+    yPercent: 450,
     scrub: 1,
     scrollTrigger: {
         trigger: '.livros',
@@ -58,7 +58,7 @@ gsap.from('.livros-col--up', {
     }
 })
 gsap.from('.livros-col--down', {
-    yPercent: -350,
+    yPercent: -450,
     scrub: 1,
     scrollTrigger: {
         trigger: '.livros',
