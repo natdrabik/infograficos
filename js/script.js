@@ -45,7 +45,7 @@ gsap.timeline()
     y: 50,
     duration: 1, 
     ease:"back"
-}, "-=1")
+}, "-=.5")
 
 gsap.to('.intro p', {
     opacity: 0,
