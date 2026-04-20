@@ -30,6 +30,16 @@ function closeMenu() {
 //3. subtítulo
 
 gsap.timeline()
+.from('.livros-col--up', {
+    yPercent: 450,
+    scrub: 1,
+    duration: 5
+})
+.from('.livros-col--down', {
+    yPercent: -450,
+    scrub: 1,
+    duration: 5
+})
 .from('.intro p', {
     opacity: 0,
     duration: 1,
@@ -48,24 +58,7 @@ gsap.timeline()
 }, "-=.5")
 
 
-gsap.from('.livros-col--up', {
-    yPercent: 450,
-    scrub: 1,
-    scrollTrigger: {
-        trigger: '.livros',
-        start: 'top top', // when the top of the trigger hits the top of the viewport
-        end: 'bottom top',
-    }
-})
-gsap.from('.livros-col--down', {
-    yPercent: -450,
-    scrub: 1,
-    scrollTrigger: {
-        trigger: '.livros',
-        start: 'top top', // when the top of the trigger hits the top of the viewport
-        end: 'bottom top',
-    }
-})
+
 
 
 // var tlProjects = gsap.timeline({

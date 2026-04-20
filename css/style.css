@@ -350,6 +350,20 @@ nav {
       position: relative;
     }
 
+    .livros-track:before {
+    content: '';
+    position: absolute;
+    background: var(--primary);
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    mix-blend-mode: color;
+    filter: opacity(0.3);
+    transition: 0.5s;
+    z-index: 1;
+}
+
   .livros-col {
         display: flex;
         flex-direction: column;
