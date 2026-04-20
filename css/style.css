@@ -359,13 +359,13 @@ nav {
     .livros-track:before {
     content: '';
     position: absolute;
-    background: var(--primary);
+    background: var(--primary-a10);
     top: 0;
     right: 0;
     left: 0;
     bottom: 0;
-    mix-blend-mode: color;
-    filter: opacity(0.6);
+    /* mix-blend-mode: color; */
+    opacity: .6;
     transition: 0.5s;
     z-index: 1;
 }
