@@ -42,7 +42,7 @@ gsap.timeline()
 }, "<")
 .from('.intro p', {
     opacity: 0,
-    duration: 1,
+    duration: .5,
 }, "<2")
 .from('.intro h1', {
     opacity: 0,
