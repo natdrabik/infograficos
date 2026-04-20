@@ -310,23 +310,28 @@ nav {
     align-items: center;
     display: flex;
     justify-content: center;
+    z-index: 2;
 
     p {
       font-size: calc(2rem + 0.6vw);
       text-transform: uppercase;
-      color: var(--copy-lighter);
+      color: #fff;
       font-weight: 700;
+      text-shadow: #000000 1px 0 15px;
     }
   }
   h1 {
     font-size: calc(6rem + 0.6vw);
     text-align: center;
+    color: #fff;
+    text-shadow: #000000 1px 0 15px;
   }
 
   h2 {
     font-size: calc(5rem + 0.6vw);
     text-align: center;
-    color: var(--primary-light);
+    color: #fff;
+    text-shadow: #000000 1px 0 15px;
   }
 
   .livros {
@@ -360,7 +365,7 @@ nav {
     left: 0;
     bottom: 0;
     mix-blend-mode: color;
-    filter: opacity(0.3);
+    filter: opacity(0.5);
     transition: 0.5s;
     z-index: 1;
 }
