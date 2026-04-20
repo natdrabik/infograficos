@@ -365,7 +365,7 @@ nav {
     left: 0;
     bottom: 0;
     mix-blend-mode: color;
-    filter: opacity(0.5);
+    filter: opacity(0.6);
     transition: 0.5s;
     z-index: 1;
 }
