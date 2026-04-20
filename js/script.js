@@ -39,7 +39,7 @@ gsap.timeline()
     yPercent: -450,
     scrub: 1,
     duration: 5
-})
+}, "<")
 .from('.intro p', {
     opacity: 0,
     duration: 1,
