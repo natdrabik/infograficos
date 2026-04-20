@@ -31,12 +31,12 @@ function closeMenu() {
 
 gsap.timeline()
 .from('.livros-col--up', {
-    yPercent: 350,
+    yPercent: 250,
     scrub: 1,
     duration: 5
 })
 .from('.livros-col--down', {
-    yPercent: -350,
+    yPercent: -250,
     scrub: 1,
     duration: 5
 }, "<")
