@@ -43,19 +43,19 @@ gsap.timeline()
 .from('.intro p', {
     opacity: 0,
     // y: 50,
-    duration: 0.5,
+    duration: 1,
     // ease:"back"
 }, "<1")
 .from('.intro h1', {
     opacity: 0,
     // y: 50,
-    duration: 0.5, 
+    duration: 1, 
     // ease:"back"
 }, "<0.2")
 .from('.intro h2', {
     opacity: 0,
     // y: 50,
-    duration: 0.5, 
+    duration: 1, 
     // ease:"back"
 }, "<0.2")
 
