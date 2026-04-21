@@ -43,7 +43,7 @@ gsap.timeline()
 .from('.intro p', {
     opacity: 0,
     duration: .5,
-}, "<3")
+}, "<1")
 .from('.intro h1', {
     opacity: 0,
     y: 50,
