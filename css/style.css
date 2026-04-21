@@ -314,7 +314,7 @@ nav {
 
     p {
       font-size: calc(2rem + 0.6vw);
-      text-transform: uppercase;
+      text-transform: lowercase;
       color: #fff;
       font-weight: 700;
       text-shadow: #000000 1px 0 15px;
