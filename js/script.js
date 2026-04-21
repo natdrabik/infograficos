@@ -60,18 +60,17 @@ gsap.timeline()
 }, "<0.2")
 
 
-
-
-
-// var tlProjects = gsap.timeline({
-//     scrollTrigger: {
-//         trigger: "#links",
-//     }
-// })
-// .from('#links a', {
-//   y: 10,
-//   opacity:0,
-//   duration: .5,
-//   stagger: 0.2,
-//   delay:.5
-// })
+const tl = gsap
+      .timeline({
+        scrollTrigger: {
+          trigger: ".livros",
+          start: "top top",
+          end: "bottom top",
+          scrub: 1,
+        }
+      })
+      .top('.livros-col--down', {
+        yPercent: -200,
+        scrub: 1,
+        // duration: 3
+        })
