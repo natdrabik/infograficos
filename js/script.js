@@ -55,7 +55,7 @@ gsap.timeline()
     y: 50,
     duration: 1, 
     ease:"back"
-}, "-=.5")
+}, "-=2")
 
 
 
