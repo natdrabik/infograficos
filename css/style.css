@@ -310,7 +310,7 @@ nav {
     /* mix-blend-mode: color; */
     opacity: .6;
     transition: 0.5s;
-    z-index: 1;
+    z-index: 2;
   }
 
   .title {
@@ -378,7 +378,7 @@ nav {
     right: 0;
     left: 0;
     bottom: 0;
-    /* mix-blend-mode: color; */
+     mix-blend-mode: color; 
     opacity: .6;
     transition: 0.5s;
     z-index: 1;
