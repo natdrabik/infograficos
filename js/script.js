@@ -40,11 +40,6 @@ gsap.timeline()
     scrub: 1,
     duration: 3
 }, "<")
-.from('.bg-title', {
-    opacity: 0,
-    scrub: 1,
-    duration: 3
-}, "<")
 .from('.intro p', {
     opacity: 0,
     duration: .5,
