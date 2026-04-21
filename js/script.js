@@ -29,7 +29,8 @@ function closeMenu() {
 //2. livros correm
 //3. subtítulo
 
-gsap.timeline()
+const intro = gsap
+      .timeline()
 .from('.livros-col--up', {
     yPercent: 200,
     scrub: 1,
