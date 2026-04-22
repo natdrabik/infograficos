@@ -62,7 +62,7 @@ const intro = gsap
 
 
 gsap.to('.livros-col--down', { 
-      yPercent: -200,
+      yPercent: 0,
       scrollTrigger: {
         trigger: '.resumo',
         start: 'top bottom', // when the top of the trigger hits the top of the viewport
