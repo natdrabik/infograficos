@@ -66,7 +66,7 @@ gsap.to('.livros-col--down', {
       scrollTrigger: {
         trigger: '.resumo',
         start: 'top bottom', // when the top of the trigger hits the top of the viewport
-        end: 'top top', // end after scrolling 500px beyond the start
+        end: 'bottom bottom', // end after scrolling 500px beyond the start
         markers: true,
       }
     })
