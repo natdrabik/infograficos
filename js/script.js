@@ -61,17 +61,12 @@ const intro = gsap
 }, "<0.2")
 
 
-const tl = gsap
-      .timeline({
-        scrollTrigger: {
-          trigger: ".livros",
-          start: "top top",
-          end: "bottom top",
-          scrub: 1,
-        }
-      })
-      .top('.livros-col--down', {
-        yPercent: -200,
-        scrub: 1,
-        // duration: 3
-        })
+gsap.to('.livros-col--down', { 
+      yPercent: -400,
+      scrollTrigger: {
+        trigger: '.resumo',
+        scrub: true,
+        start: 'top bottom', // when the top of the trigger hits the top of the viewport
+        end: 'top top', // end after scrolling 500px beyond the start
+      }
+    })
