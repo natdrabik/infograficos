@@ -62,7 +62,8 @@ const intro = gsap
 
 
 gsap.to('.livros-col--down', { 
-      yPercent: -400,
+      yPercent: -200,
+      duration: 1, 
       scrollTrigger: {
         trigger: '.resumo',
         scrub: true,
