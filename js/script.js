@@ -64,7 +64,7 @@ const intro = gsap
 gsap.to('.livros-col--down', { 
       yPercent: 0,
       scrollTrigger: {
-        trigger: '.resumo',
+        trigger: '.teste',
         start: 'top bottom', // when the top of the trigger hits the top of the viewport
         end: 'bottom bottom', // end after scrolling 500px beyond the start
         markers: true,
