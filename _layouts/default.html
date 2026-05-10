@@ -1,0 +1,33 @@
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+  <title>{{ page.title }}</title>
+  <meta name="description" content="Front-End Developer com background em Design Gráfico, localizada em Curitiba, Paraná.">
+  <link rel="canonical" href="https://natdrabik.github.io/">
+
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Nat Drabik | Front-End Developer">
+  <meta property="og:description" content="Front-End Developer com background em Design Gráfico, localizada em Curitiba, Paraná.">
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  
+  <link rel="stylesheet" href="assets/css/style.css">
+   <!-- <link rel="stylesheet" href="{{ 'assets/css/style.css' | relative_url }}"> -->
+</head>
+<body>
+<article>
+  {% include header.html %}
+
+  {{ content }}
+
+  {% include footer.html %}
+</body>
+<script src="https://unpkg.com/gsap@3/dist/gsap.min.js"></script>
+<script src="https://unpkg.com/gsap@3/dist/ScrollTrigger.min.js"></script>
+<script type="text/javascript" src="assets/js/script.js"></script>
+</html>

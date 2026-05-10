@@ -1,0 +1,110 @@
+#btMenu {
+  display: block;
+  border: 0;
+  background: transparent;
+  position: fixed;
+  right: 30px;
+  top: 30px;
+  margin: 0;
+  padding: 0;
+  width: 40px;
+  height: 40px;
+  z-index: 2;
+
+  span {
+    font-size: 0;
+  }
+
+  svg {
+    width: 40px;
+    height: 40px;
+  }
+
+  .open {
+    display: block;
+  }
+
+  .close {
+    display: none;
+  }
+}
+
+nav {
+  display: none;
+  ul {
+    display: flex;
+    list-style: none;
+    grid-gap: 30px 50px;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+  }
+
+  li {
+    font-size: 8cqw;
+  }
+}
+
+.has-menu {
+  #btMenu {
+   .open {
+      display: none;
+    }
+
+    .close {
+      display: block;
+    } 
+  }
+  nav {
+  position: fixed;
+  justify-content: center;
+  display: flex;
+  width: 100%;
+  padding: 10px 50px;
+  height: 100vh;
+  flex-direction: column;
+  background: var(--primary-a0);
+  z-index: 1;
+  }
+}
+
+@media (min-width: 600px) {
+  #btMenu {
+    display: none;
+  }
+
+  nav {
+    position: fixed;
+    justify-content: flex-end;
+    display: flex;
+    width: 100%;
+    height: auto;
+    padding: 10px 50px;
+    flex-direction: row;
+    filter: none;
+    background: transparent;
+
+    ul {
+      display: flex;
+      list-style: none;
+      grid-gap: 30px 50px;
+      flex-direction: row;
+      padding: 15px 0;
+    }
+
+    li {
+      font-size: 1.2cqw;
+    }
+  }
+
+  .has-menu nav {
+    position: fixed;
+    justify-content: flex-end;
+    display: flex;
+    width: 100%;
+    padding: 10px 50px;
+    height: auto;
+    flex-direction: row;
+    background: none;
+  }
+}
